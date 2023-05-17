@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>HomePage</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="dropdown.css">
+    <script src="navbar.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="container-fluid">
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="logo">
+                <a href='homepage.html'><img src="banner.png" height="200" class="img-fluid"></a>
+            </div>
+            <div class="menu-bar">
+                <ul class="menu">
+                    <li class="dropdown">
+                        <a class="active" href="solutions.html">Solutions</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="metermanagement.html">Metering Management</a></li>
+                            <li><a href="demandresponse.html">Demand Response</a></li>
+                            <li><a href="assetmanagement.html">Asset Management</a></li>
+                            <li><a href="deploymentmanagement.html">Deployment Management</a></li>
+                            <li><a href="multimeshnetwork.html">Multi-Mesh Network</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="products.html">Products</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">intelaMeter</a></li>
+                            <li><a href="#">Load Shedding Endpoints</a></li>
+                            <li><a href="#">Network Infrastructure</a></li>
+                            <li><a href="#">Enterprise Software</a></li>
+                            <li><a href="#">Home Products</a></li>
+                            <li><a href="#">Mobile Deployment</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="partners.html">Partners</a></li>
+                    <li class="dropdown">
+                        <a href="about.html">About Us</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Leadership Team</a></li>
+                            <li><a href="#">Board of Directors</a></li>
+                            <li><a href="#">Manufacturing</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="news.html">News</a></li>
+                </ul>
+            </div>
+            <button class="toggle-btn">&#9776;</button>
+        </div>
+    </nav>
+    <main class="container-fluid">
+        <h1>Multi-Mesh Network</h1>
+        <img src="ecoNetMesh2.jpg" alt="EcoMesh">
+        <p>
+            The diagram above demonstrates how end point devices may route through multiple communication paths.
+            ecoNet's patent pending multi-mesh network ensures redundant paths and provides a scalable solution for
+            future applications.
+        </p>
+        <h3>Multi-Mesh Network Overview</h3>
+        <p>
+            The Multi-Mesh Smart Grid communications infrastructure provides utilities with a broadband, standards based
+            solution in which the WAN, NAN, and HAN become one seamless communication network. This creates a secure
+            end-to-end network that supports multiple applications including advanced metering reading, distribution
+            automation, demand side management and smart home.
+        </p>
+        <h3>Security</h3>
+        <p>
+            The end-to-end network allows Utilities to ensure all security aspects - privacy, confidentiality,
+            integrity, availability, authentication, authorization, and accountability - across their entire Smart Grid.
+            The additional capability of providing end-to-end virtual private networking and per-application
+            Quality-of-Service (QoS) controls ensures Smart Grid application security and performance across the entire
+            communications infrastructure. Because of the use of standards, security can evolve over time as the
+            standards evolve without an expensive investment in infrastructure.
+        </p>
+        <h3>Extensibility</h3>
+        <p>
+            The ecoNet Mesh infrastructure provides the bandwidth to support future applications and the standards based
+            platform ensures the compatibility for future applications that can easily be added to the network.
+        </p>
+        <h3>Scalability</h3>
+        <p>
+            Flexible deployment of the EDS software (private or public cloud such as Amazon EC2 are equally supported)
+            combined with the cellular nature of the ecoNet mesh allow for the Nexgrid infrastructure to scale to even
+            the most demanding requirements, and to scale in a cost effective nature over time as Utilities grow
+            organically (and adding acquisitions onto the network is simplified by the open nature of the solution API).
+        </p>
+    </main>
+    <footer class="container-fluid bg-secondary fixed-bottom text-center text-white">
+        <div>
+            <p>2023 Nexgrid, LLC. All Rights Reserved | Privacy
+                Policy | Terms of Use</p>
+        </div>
+    </footer>
+</body>
+
+</html>

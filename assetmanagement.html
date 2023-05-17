@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>HomePage</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="dropdown.css">
+    <script src="navbar.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="container-fluid">
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="logo">
+                <a href='homepage.html'><img src="banner.png" height="200" class="img-fluid"></a>
+            </div>
+            <div class="menu-bar">
+                <ul class="menu">
+                    <li class="dropdown">
+                        <a class="active" href="solutions.html">Solutions</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Metering Management</a></li>
+                            <li><a href="demandresponse.html">Demand Response</a></li>
+                            <li><a href="assetmanagement.html">Asset Management</a></li>
+                            <li><a href="deploymentmanagement.html">Deployment Management</a></li>
+                            <li><a href="#">Multi-Mesh Network</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="products.html">Products</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">intelaMeter</a></li>
+                            <li><a href="#">Load Shedding Endpoints</a></li>
+                            <li><a href="#">Network Infrastructure</a></li>
+                            <li><a href="#">Enterprise Software</a></li>
+                            <li><a href="#">Home Products</a></li>
+                            <li><a href="#">Mobile Deployment</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="partners.html">Partners</a></li>
+                    <li class="dropdown">
+                        <a href="about.html">About Us</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Leadership Team</a></li>
+                            <li><a href="#">Board of Directors</a></li>
+                            <li><a href="#">Manufacturing</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="news.html">News</a></li>
+                </ul>
+            </div>
+            <button class="toggle-btn">&#9776;</button>
+        </div>
+    </nav>
+    <main class="container-fluid">
+        <h1>Asset Management</h1>
+        <img src="asset_management.png" alt="asset management">
+        <p>
+            Utilities deploy and manage assets such as transformers, circuits, substations, pumping stations, and
+            pipelines throughout their coverage area. The Nexgrid asset management allows utilities to monitor the
+            usage, map locations, and see historical data of these deployed assets in order to provide consistent load
+            management.
+        </p>
+        <h3>Service Quality</h3>
+        <p>
+            By monitoring assets through an easy to use interface the utility can improve the overall service provided
+            to their customers. Understanding the load on assets such as transformers can provide critical information
+            about how the electric network is performing.
+        </p>
+        <h3>Asset Forecasting</h3>
+        <p>
+            Forecasting growth areas and assets needed to support those areas is a critical issue that all utilities
+            fact. Monitoring the load on the various system assets is a simple way to forecast future needs and allow
+            for accurate needs projections.
+        </p>
+        <h3>Load Optimization</h3>
+        <p>
+            Tuning an electric network can provide millions in savings for an electric utility. Asset management
+            provides key data points in order to tune the distribution of electricity to maintain quality while reducing
+            overall costs.
+        </p>
+    </main>
+    <footer class="container-fluid bg-secondary fixed-bottom text-center text-white">
+        <div>
+            <p>2023 Nexgrid, LLC. All Rights Reserved | Privacy
+                Policy | Terms of Use</p>
+        </div>
+    </footer>
+</body>
+
+</html>
