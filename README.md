@@ -27,5 +27,6 @@
 # To Run on Your Local Machine
 1. `git copy`
 2. enter `http-server` in your terminal
+3. navigate to the route now found in your terminal
 
 
