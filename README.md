@@ -6,7 +6,7 @@
 
 ## for technology I chose to use HTML/CSS and JavaScript with Bootstrap and JQuery. 
 
-## When I learned to code, I sort of jumped straight into React. It's not that I didn't know how to do anything in HTML/CSS (I actually started with this iteration of vanilla HTML/CSS and JS, then going on to learn Python and Flask which allows still more for writing real HTML), but most of the bigger, professional quality websites I have made were done in React frameworks. 
+## When I learned to code, I sort of jumped straight into React. It's not that I didn't know how to do anything in HTML/CSS (I actually started with this iteration of vanilla HTML/CSS and JS, then went on to learn Python and Flask which allows still more for writing real HTML), but most of the bigger, professional quality websites I have made were done in React frameworks. 
 
 ## So this is sort of a "back to basics" approach to web development!
 
