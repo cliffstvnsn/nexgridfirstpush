@@ -18,6 +18,8 @@
 
 ### This would perhaps be ideal if I was having to pass secure data or xml around the application, but since this website does not contain any vulnerable information (it's just a homepage for a company), it would be very well suited to being a Single-Page-Application.
 
+### Any time I make a change to the footer or navbar component, I have to go to every single page and update it. This is very tedious and time-consuming and taught me a valuable lesson about modularization
+
 ### This has been a project that taught me a lot. As a front-end developer, I can pretty much YouTube or Google anything I don't know how to do, such as the creation of a Carousel, NavBar or professional-looking footer. 
 
 ### It's important to recognize that as developers, we shouldn't expect ourselves to memorize needless information that can be found online, and all of us do this. This is why interviews can be pretty stupid when we are expected to demonstrate knowledge on the spot, which is not the working condition of being on-the-job.
