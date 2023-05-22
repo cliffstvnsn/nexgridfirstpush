@@ -1,16 +1,16 @@
 # Nexgrid Website 
 
-# Nexgrid is a local smartgrid utility company here in my hometown Richmond, Virginia 
+### Nexgrid is a local smartgrid utility company here in my hometown Richmond, Virginia 
 
 ## I made this website as an improvement upon Nexgrid's current website which was published in 2010 and still being used as their active webpage
 
-## for technology I chose to use HTML/CSS and JavaScript with Bootstrap and JQuery. 
+### for technology I chose to use HTML/CSS and JavaScript with Bootstrap and JQuery. 
 
-## When I learned to code, I sort of jumped straight into React. It's not that I didn't know how to do anything in HTML/CSS (I actually started with this iteration of vanilla HTML/CSS and JS, then went on to learn Python and Flask which allows still more for writing real HTML), but most of the bigger, professional quality websites I have made were done in React frameworks. 
+### When I learned to code, I sort of jumped straight into React. It's not that I didn't know how to do anything in HTML/CSS (I actually started with this iteration of vanilla HTML/CSS and JS, then went on to learn Python and Flask which allows still more for writing real HTML), but most of the bigger, professional quality websites I have made were done in React frameworks. 
 
-## So this is sort of a "back to basics" approach to web development!
+### So this is sort of a "back to basics" approach to web development!
 
-## I went about this project this way to feel and see the implications of using just HTML/CSS to make a full, modern-looking and responsive website.
+### I went about this project this way to feel and see the implications of using just HTML/CSS to make a full, modern-looking and responsive website.
 
 ## I believe this will give me a renewed appreciation and understanding of React and why it is useful!
 
