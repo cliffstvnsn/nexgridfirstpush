@@ -25,7 +25,7 @@
 ### I will probably recreate or do similar company websites like this in the future using React. Let me know if you have any suggestions or comments. Cheers
 
 # To Run on Your Local Machine
-`git copy`
-enter `http-server` in your terminal
+1. `git copy`
+2. enter `http-server` in your terminal
 
 
